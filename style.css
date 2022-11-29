@@ -182,3 +182,83 @@ background-color: #555;
 		margin: 10vw;
 	}
 }
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.about-img {
+		margin-bottom: 20px;
+	}
+	.service-item {
+		margin-bottom: 30px;
+	}
+	.skill {
+		margin-top: 20px;
+	}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.service-item {
+		margin-bottom: 30px;
+	}
+	.resume-item .resume-left {
+		text-align: left;
+	}
+	.header-section {
+		padding: 10px 30px;
+	}
+	.header-section.bgc {
+		background: #000;
+	}
+	.header-section.bgc .logo {
+		margin-bottom: 10px;
+	}
+	.header-section .menu-list {
+		display: none;
+		float: none;
+		clear: both;
+		border-top: 1px solid #222;
+	}
+	.header-section .menu-list li {
+		display: inline;
+	}
+	.header-section .menu-list li a {
+		display: block;
+		padding: 10px;
+	}
+	.header-section .menu-list li a:after {
+		left: 0%;
+	}
+	.header-section .menu-list li a:hover:after {
+		width: 10px;
+		margin-left: 10px;
+	}
+	.header-section .menu-list .current a:after {
+		margin-left: 10px;
+	}
+	.responsive {
+		display: block;
+		color: #fff;
+		font-size: 34px;
+		position: absolute;
+		right: 30px;
+	}
+	.intro-inner .intro-content h2 {
+		font-size: 40px;
+	}
+	.contact-info {
+		margin-bottom: 30px;
+	}
+	.contact-info:last-child {
+		margin-bottom: 0;
+	}
+	.skill {
+		margin-top: 20px;
+	}
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+	.intro-inner .intro-content h2 {
+		font-size: 27px;
+	}
+}
